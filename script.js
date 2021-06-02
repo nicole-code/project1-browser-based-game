@@ -14,7 +14,7 @@ let correctGuesses = 0;
 
 let btns = document.querySelectorAll("button");
 let theMain =document.querySelector("main");
-let theBody = document.querySelectorAll("body");
+let theBody = document.querySelector("body");
 
 /*----- event listeners -----*/
 
@@ -47,6 +47,7 @@ function buttonClick (event) {
             el.innerText = letterClicked; 
             correctGuesses += 1; 
             console.log(correctGuesses)
+            document.getElementById("numberOfCorrectGuesses").innerText = correctGuesses
         }) 
     } else {
        wrongGuesses += 1 //adding one to current score
@@ -70,26 +71,17 @@ function generateSpace () {
 
 
 function checkWinOrLose () {
-    // let winningImage = document.createElement("IMG");
-    // winningImage.src = "images/You've been Slimmmed!.png"; //refer to proper image
-    // let losingImage = document.createElement("IMG");
-    // losingImage.src = "images/80s YOU WIN.png"; 
+    let winningImage = document.createElement("IMG");
+    winningImage.src ="images/win.png"; 
+    let losingImage = document.createElement("IMG");
+    losingImage.src ="images/lose.png"; 
         if (currentWord.length === correctGuesses) { 
-            alert("you won")
-            //display winning image
-            // theBody.appendChild(winningImage);
-            
+            theBody.appendChild(winningImage);
         } 
-
         else if (wrongGuesses === 4){
-            alert("you lost")
-              //display the losingImage   
-            // theBody.appendChild(losingImage);     
+            theBody.appendChild(losingImage);     
         } 
         
-        else {
-
-        }
 }
 
 
