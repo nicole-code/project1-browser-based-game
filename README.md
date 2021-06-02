@@ -26,3 +26,10 @@
     <li>JS</li>
 <ul>
 
+
+<h3>Iterations</h3>
+<ul>
+    <li>Version 1.0 - Simple working hangman with a few movie titles and a win or lose condition</li>
+    <li>Version 1.1 - Simple working hangman with aesthetically pleasing design features and serves some real 80s nostalgia</li>
+    <li>Version 1.2 - Working hangman with interactive category options including, comedy, drama, romance, and horror that the user is able to select and have at least 2 or 3 titles within those categories</li>
+<ul>
