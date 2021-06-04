@@ -12,25 +12,26 @@
 
 <img src ="images/80swireframe.png" width="700" height="400">
 
-<p>Upon loading, you'll be provided with a set of blank spaces and you'll have to guess the name of the movie by clicking the letters that you think make up the movie title.</p>
+<p>Upon loading, you'll be provided with a set of blank spaces and you'll have to guess the name of the movie by clicking the letters that you think make up that title.</p>
 
 <p>Guess the wrong letter 4 times and you may get...er...a surprise. Not as good as tasty as a HI-C but perhaps just as sticky.</p>
 
 <p>Figure out the movie title and you'll get what every child who was born in the 80s craves to this day - validation!</p>
 
+<p>If you want to play again, find the wise words of John McClane and click to play again!</p>
+
 
 <h3>Technologies Used</h3>
 <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JS</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
 <ul>
 
 
 <h3>Iterations</h3>
 <ul>
-    <li>Version 1.0 - Simple working hangman with a few movie titles and a win or lose condition</li>
-    <li>Version 1.1 - Simple working hangman with aesthetically pleasing design features and serves some real 80s nostalgia</li>
-    <li>Version 1.2 - Working hangman with interactive category options including, comedy, drama, romance, and horror that the user is able to select and have at least 2 or 3 titles within those categories</li>
-    <li>Version 1.3 - Mobile-friendly queries</li>
+<li>Version 1.1 - Mobile-friendly queries</li>
+<li>Version 1.2 - Working hangman with interactive category options including, comedy, drama, romance, and horror that the user is able to select and have at least 2 or 3 titles within those categories</li>
+<li>Version 1.3 - A button to generate hints for each movie.</li>
 <ul>
