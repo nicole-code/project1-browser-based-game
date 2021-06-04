@@ -72,8 +72,9 @@ h2 {
 }
 
 .winPic, .lostPic {
-    height: 200px;
-    width: 400px;   
+    height: 400px;
+    width: 900px;   
+    position: absolute;
 }
 
 
@@ -104,11 +105,11 @@ main {
 }
 
 
-@media (max-width 600px) {
+@media screen and (max-width: 600px) {
     #title-wrapper {
         display: flex;
         flex-direction: column;
+        
     }
 }
 
-/* K HOW COME MY MEDIA QUERY ISNT WORKING! */
