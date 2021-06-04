@@ -31,7 +31,6 @@
 
 <h3>Iterations</h3>
 <ul>
-<li>Version 1.1 - Mobile-friendly queries</li>
-<li>Version 1.2 - Working hangman with interactive category options including, comedy, drama, romance, and horror that the user is able to select and have at least 2 or 3 titles within those categories</li>
-<li>Version 1.3 - A button to generate hints for each movie.</li>
+<li>Version 1.1 - Working hangman with interactive category options including, comedy, drama, romance, and horror that the user is able to select and have at least 2 or 3 titles within those categories</li>
+<li>Version 1.2 - A button to generate hints for each movie.</li>
 <ul>

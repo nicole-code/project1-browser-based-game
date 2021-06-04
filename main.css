@@ -41,8 +41,6 @@ h2 {
 
 
 .keyboard {
-    /* display: flex;
-    justify-content: center; */
     color: #9536e3;
     background: #eee4f7; 
     font-family: 'Press Start 2P', cursive;
@@ -113,3 +111,9 @@ main {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .winPic, .lostPic {
+        height: 200px;
+        width: 450px;
+    }
+}
