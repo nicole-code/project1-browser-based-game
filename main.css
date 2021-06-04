@@ -1,6 +1,101 @@
-button {
-    color: black;
-    height: 50px;
-    width: 50px;
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 44px; 
+    color: #3ebec7;
+
+}
+
+h2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 60px; 
+    color: #3e77c7; 
+
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;;
+
+}
+
+
+.keyboard {
+    /* display: flex;
+    justify-content: center; */
+    color: #9536e3;
+    background: #eee4f7; 
+    font-family: 'Press Start 2P', cursive;
+    border-color: #9536e3;
+    height: 60px;
+    width: 60px;
 }  
+
+#playerArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+
+}
+
+#playAgain {
+    color: #eb348c;
+    background: #edd5e1;
+    border-color: #eb348c;;
+    font-size: 15px; 
+    height: 100px;
+    width: 200px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.winPic {
+    height: 100vh;   
+}
+
+.lostPic {
+    height: 100vh;
+}
+
+#wrongGuesses, #userScore, #correctGuesses, #numberOfCorrectGuesses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px; 
+    color: #9536e3;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #9536e3;
+    font-size: 40px; 
+    padding: 60px;
+}
 

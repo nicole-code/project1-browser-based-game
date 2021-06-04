@@ -12,9 +12,10 @@ let correctGuesses = 0;
 
 /*----- cached element references -----*/
 
-let btns = document.querySelectorAll("button");
+let btns = document.getElementsByClassName("keyboard");
 let theMain =document.querySelector("main");
 let theBody = document.querySelector("body");
+let playAgainBtn = document.getElementById("playAgain");
 
 /*----- event listeners -----*/
 
@@ -23,6 +24,8 @@ let theBody = document.querySelector("body");
 for (let btn of btns) {
     btn.addEventListener("click", buttonClick)
 }
+
+playAgainBtn.addEventListener("click", restartGame)
 
 /*----- functions -----*/
 
@@ -46,8 +49,7 @@ function buttonClick (event) {
         document.querySelectorAll(".letter-" + letterClickedLowerCase).forEach(function(el){ 
             el.innerText = letterClicked; 
             correctGuesses += 1; 
-            console.log(correctGuesses)
-            document.getElementById("numberOfCorrectGuesses").innerText = correctGuesses
+            document.getElementById("numberOfCorrectGuesses").innerText = correctGuesses// comment this back in if you want to display correct guesses for user
         }) 
     } else {
        wrongGuesses += 1 //adding one to current score
@@ -62,10 +64,11 @@ function buttonClick (event) {
 function generateSpace () {
     for (let letter of currentWord) {
         let newSpan= document.createElement("span"); //make the space where word will go on the page
-        newSpan.innerHTML = "__ "; 
-        newSpan.classList.add("letter-" + letter.toLowerCase())         
+        newSpan.innerHTML = "_ "; 
+        newSpan.classList.add("letter-" + letter.toLowerCase())
+        newSpan.classList.add("letter")         
         theMain.appendChild(newSpan); 
-        
+
     }
 }
 
@@ -73,17 +76,21 @@ function generateSpace () {
 function checkWinOrLose () {
     let winningImage = document.createElement("IMG");
     winningImage.src ="images/win.png"; 
+    winningImage.classList.add("winPic");
     let losingImage = document.createElement("IMG");
     losingImage.src ="images/lose.png"; 
+    losingImage.classList.add("lostPic");
         if (currentWord.length === correctGuesses) { 
             theBody.appendChild(winningImage);
         } 
         else if (wrongGuesses === 4){
             theBody.appendChild(losingImage);     
         } 
-        
+       
 }
 
 
-
+function restartGame () {
+    location.reload();
+}
 

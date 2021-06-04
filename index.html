@@ -6,49 +6,67 @@
     <title>Guess That 80s Movie!</title>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
 </head>
-<body>
-<main>
-    <!-- <div id ="bg">
-        <img src="images/80s-background-hangman.png" alt="80s background">
-    </div> -->
-</main>
 
-    <section id="btnSection">
-        <button>A</button>
-        <button>B</button>
-        <button>C</button>
-        <button>D</button>
-        <button>E</button>
-        <button>F</button>
-        <button>G</button>
-        <button>H</button>
-        <button>I</button>
-        <button>J</button>
-        <button>K</button>
-        <button>L</button>
-        <button>M</button>
-        <button>N</button>
-        <button>O</button>
-        <button>P</button>
-        <button>Q</button>
-        <button>R</button>
-        <button>S</button>
-        <button>T</button>
-        <button>U</button>
-        <button>V</button>
-        <button>W</button>
-        <button>X</button>
-        <button>Y</button>
-        <button>Z</button>
-    </section>   
-        <main>
-        </main> 
-    <div id="wrongGuesses">WRONG GUESSES</div>
-    <div id="userScore">0</div>
-    <div id="correctGuesses">CORRECT GUESSES</div>
-    <div id="numberOfCorrectGuesses">0</div>
+    <body>
+        <div id="title-wrapper">
+            <h1>Guess That</h1> 
+            <h2>80's</h2> 
+            <h1>Movie!</h1>
+        </div>  
+        
+        <main></main>
 
+        <div id="content">
+
+            <section id="btnSection">
+                    <button class="keyboard">A</button>
+                    <button class="keyboard">B</button>
+                    <button class="keyboard">C</button>
+                    <button class="keyboard">D</button>
+                    <button class="keyboard">E</button>
+                    <button class="keyboard">F</button>
+                    <button class="keyboard">G</button>
+                    <button class="keyboard">H</button>
+                    <button class="keyboard">I</button>
+                    <button class="keyboard">J</button>
+                    <button class="keyboard">K</button>
+                    <button class="keyboard">L</button>
+                    <button class="keyboard">M</button>
+                    <button class="keyboard">N</button>
+                    <button class="keyboard">O</button>
+                    <button class="keyboard">P</button>
+                    <button class="keyboard">Q</button>
+                    <button class="keyboard">R</button>
+                    <button class="keyboard">S</button>
+                    <button class="keyboard">T</button>
+                    <button class="keyboard">U</button>
+                    <button class="keyboard">V</button>
+                    <button class="keyboard">W</button>
+                    <button class="keyboard">X</button>
+                    <button class="keyboard">Y</button>
+                    <button class="keyboard">Z</button>
+            </section>  
     
+                <div id="playerArea">
+
+                    <div id="wrongGuesses">Four wrong guesses and you might be slimmed!</div>
+                    <div id="userScore">0</div>
+                    <div id="correctGuesses">Hey, man look at how many letters you've guessed right!</div> 
+                    <div id="numberOfCorrectGuesses">0</div>
+                    <button id="playAgain">Yippee-Kai-Yay Mother F***er! <br>Play Again!<br/></button>
+                    
+
+             </div>
+    
+        </div>
 </body>
+
+
+
 </html>
