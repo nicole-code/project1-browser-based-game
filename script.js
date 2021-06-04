@@ -78,13 +78,13 @@ function checkWinOrLose () {
     winningImage.src ="images/win.png"; 
     winningImage.classList.add("winPic");
     let losingImage = document.createElement("IMG");
-    losingImage.src ="images/lose.png"; 
+    losingImage.src ="images/losingimg.png"; 
     losingImage.classList.add("lostPic");
         if (currentWord.length === correctGuesses) { 
-            theBody.appendChild(winningImage);
+            theMain.appendChild(winningImage);
         } 
         else if (wrongGuesses === 4){
-            theBody.appendChild(losingImage);     
+            theMain.appendChild(losingImage);     
         } 
        
 }

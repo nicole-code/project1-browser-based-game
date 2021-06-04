@@ -5,7 +5,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 #title-wrapper {
@@ -71,13 +71,12 @@ h2 {
     font-family: 'Press Start 2P', cursive;
 }
 
-.winPic {
-    height: 100vh;   
+.winPic, .lostPic {
+    height: 200px;
+    width: 400px;   
 }
 
-.lostPic {
-    height: 100vh;
-}
+
 
 #wrongGuesses, #userScore, #correctGuesses, #numberOfCorrectGuesses {
     display: flex;
@@ -93,9 +92,13 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
     font-family: 'Press Start 2P', cursive;
     color: #9536e3;
     font-size: 40px; 
     padding: 60px;
 }
 
+#btnSection {
+    padding: 30px;
+}
