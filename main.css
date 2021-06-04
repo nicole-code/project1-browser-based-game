@@ -102,3 +102,12 @@ main {
 #btnSection {
     padding: 30px;
 }
+
+
+@media (min-width 600px) {
+    #title-wrapper {
+        flex-direction: column;
+    }
+}
+
+/* K HOW COME MY MEDIA QUERY ISNT WORKING! */
