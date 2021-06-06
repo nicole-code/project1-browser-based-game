@@ -10,7 +10,7 @@
 
 <p>We'll try to make things stylish and pretty, but hey, the 80s were the dawn of the PC so you'll get what we give you and that may be just enough to get things working!</p>
 
-<img src ="images/80swireframe.png" width="700" height="400">
+<img src ="images/gametitle.png" width="700" height="400">
 
 <p>Upon loading, you'll be provided with a set of blank spaces and you'll have to guess the name of the movie by clicking the letters that you think make up that title.</p>
 
