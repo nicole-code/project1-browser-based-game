@@ -20,6 +20,8 @@
 
 <p>If you want to play again, find the wise words of John McClane and click to play again!</p>
 
+<a href="https://nicole-code.github.io/project1-browser-based-game/">Play The Game Here</a>
+
 
 <h3>Technologies Used</h3>
 <ul>
