@@ -1,4 +1,3 @@
-Guess That 80s Movie!
 
 <h3> Ah, the 80s. </h3>
 
