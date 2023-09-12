@@ -1,4 +1,4 @@
-# Project 1 - Guess That 80s Movie!
+Guess That 80s Movie!
 
 <h3> Ah, the 80s. </h3>
 
